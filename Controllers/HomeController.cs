@@ -43,7 +43,7 @@ namespace PharmacyMedicineSupplyPortal.Controllers
 
             if (token != null)
             {
-                return RedirectToAction("Index1", "MRScheduleMeet", new { name = token });
+                return RedirectToAction("EnterDate", "MRScheduleMeet", new { name = token });
             }
             else
             {
